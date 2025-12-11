@@ -14,9 +14,9 @@
 
 ## Instalação
 
-1. Fazer download do ZIP do Addon
+1. Fazer download do Bistooltip-main
 2. Fazer download das Dependencias (DataStore e DataStore_Inventory)
 3. Alterar o nome do ficheiro dentro do ZIP de Bistooltip.main para Bistooltip
-
 4. Meter o Addon e as Dependencias na pasta "Addons"
+
 

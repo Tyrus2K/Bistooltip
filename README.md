@@ -5,7 +5,8 @@
 * Addon traduzido para PT-BR
 
 ## Screenshots
-![AddonImage](https://prnt.sc/PXmb-RPbYJRQ)
+
+<img width="497" height="606" alt="Bistooltip" src="https://github.com/user-attachments/assets/92a413d5-1de0-4c38-99be-10cf434797a7" />
 
 ## Dependencias
 
@@ -16,4 +17,5 @@
 1. Fazer download do ZIP do Addon
 2. Fazer download das Dependencias (DataStore e DataStore_Inventory)
 3. Alterar o nome do ficheiro dentro do ZIP de Bistooltip.main para Bistooltip
+
 4. Meter o Addon e as Dependencias na pasta "Addons"

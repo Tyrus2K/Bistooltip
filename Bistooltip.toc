@@ -18,11 +18,11 @@ Libs\AceConfig-3.0\AceConfig-3.0.xml
 Libs\LibDataBroker\LibDataBroker-1.1.lua
 Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
 
-Info\Loot_Sources.lua
-Info\Bistooltip_classes.lua
-Info\Bistooltip_wowtbc_bislists.lua
-Info\Bistooltip_wowtbc_bislists_old.lua
-Info\Bistooltip_horde_to_ali.lua
+Data\Loot_Sources.lua
+Data\Bistooltip_classes.lua
+Data\Bistooltip_wowtbc_bislists.lua
+Data\Bistooltip_wowtbc_bislists_old.lua
+Data\Bistooltip_horde_to_ali.lua
 
 Core\Core.lua
 Core\Config.lua

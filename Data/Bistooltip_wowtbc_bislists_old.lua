@@ -1458,7 +1458,7 @@ Bistooltip_wowtbc_bislists["Mage"]["Fire"]["Class"]
     ["slot_name"] = "Head", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 44877 },
         [2] = { ["type"] = "item", ["id"] = 41285 },
-        [3] = { ["type"] = "none", ["id"] = 0 },
+        [3] = { ["type"] = "none", ["id"] = 41285 },
         [4] = { ["type"] = "item", ["id"] = 40133 }
     }, [1] = 51281, [2] = 47761, [3] = 49481, [4] = 50661, [5] = 51158
 }

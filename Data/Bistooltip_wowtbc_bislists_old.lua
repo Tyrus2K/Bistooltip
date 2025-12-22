@@ -2917,7 +2917,7 @@ Bistooltip_wowtbc_bislists["Shaman"]["Enhancement"]["Class"]
     ["slot_name"] = "Head", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 44879 },
         [2] = { ["type"] = "item", ["id"] = 41398 },
-        [3] = { ["type"] = "none", ["id"] = 0 },
+        [3] = { ["type"] = "none", ["id"] = 41398 },
         [4] = { ["type"] = "item", ["id"] = 40162 }
     }, [1] = 51242, [2] = 50605, [3] = 50713, [4] = 48353, [5] = 51197
 }

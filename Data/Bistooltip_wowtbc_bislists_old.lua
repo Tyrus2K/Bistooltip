@@ -134,15 +134,15 @@ Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
         [2] = { ["type"] = "item", ["id"] = 41398 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 51312, [2] = 50712, [3] = 50713, [4] = 51866, [5] = 51127
+    }, [1] = 51312, [2] = 51127, [3] = 50096, [4] = 50712, [5] = 51866
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
 [2] = {
     ["slot_name"] = "Neck", ["enhs"] = {
         [1] = { ["type"] = "none", ["id"] = 0 },
-        [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 54581, [2] = 50728, [3] = 50647, [4] = 50633, [5] = 53132
+        [2] = { ["type"] = "item", ["id"] = 40143 }
+    }, [1] = 54581, [2] = 50728, [3] = 53132, [4] = 50647, [5] = 50633
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
@@ -150,7 +150,7 @@ Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
     ["slot_name"] = "Shoulder", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 44871 },
         [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 51314, [2] = 51865, [3] = 50674, [4] = 51830, [5] = 51125
+    }, [1] = 51314, [2] = 51125, [3] = 50098, [4] = 51865, [5] = 50674
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
@@ -158,17 +158,17 @@ Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
     ["slot_name"] = "Back", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 47898 },
         [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 47547, [2] = 50467, [3] = 47545, [4] = 51933, [5] = 50677
+    }, [1] = 47547, [2] = 50677, [3] = 50019, [4] = 51912, [5] = 47545
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
 [5] = {
     ["slot_name"] = "Chest", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 60692 },
-        [2] = { ["type"] = "item", ["id"] = 40117 },
+        [2] = { ["type"] = "item", ["id"] = 42153 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 49110 }
-    }, [1] = 51310, [2] = 50656, [3] = 50606, [4] = 50965, [5] = 51923
+    }, [1] = 51310, [2] = 51129, [3] = 50094, [4] = 50965, [5] = 50606
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
@@ -176,63 +176,63 @@ Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
     ["slot_name"] = "Wrist", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 44575 },
         [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 54559, [2] = 50659, [3] = 50670, [4] = 50655, [5] = 50002
+    }, [1] = 50670, [2] = 54559, [3] = 50659, [4] = 50002, [5] = 51832
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
 [7] = {
     ["slot_name"] = "Hands", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 60668 },
-        [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 51311, [2] = 50675, [3] = 51892, [4] = 51844, [5] = 51904
+        [1] = { ["type"] = "spell", ["id"] = 54999 },
+        [2] = { ["type"] = "item", ["id"] = 40117 },
+        [3] = { ["type"] = "spell", ["id"] = 60668 },
+        [4] = { ["type"] = "item", ["id"] = 40117 }
+    }, [1] = 50675, [2] = 51311, [3] = 51904, [4] = 51128, [5] = 50690
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
 [8] = {
     ["slot_name"] = "Waist", ["enhs"] = {
-        [1] = { ["type"] = "none", ["id"] = 0 },
+        [1] = { ["type"] = "item", ["id"] = 41611 },
         [2] = { ["type"] = "item", ["id"] = 40143 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40117 },
+        [4] = { ["type"] = "item", ["id"] = 42153 },
         [5] = { ["type"] = "none", ["id"] = 0 },
         [6] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 50620, [2] = 51879, [3] = 50707, [4] = 50688, [5] = 50187
+    }, [1] = 50620, [2] = 51879, [3] = 50707, [4] = 50187, [5] = 50688
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
 [9] = {
     ["slot_name"] = "Legs", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 38374 },
-        [2] = { ["type"] = "item", ["id"] = 40117 },
+        [2] = { ["type"] = "item", ["id"] = 42153 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40117 },
-        [5] = { ["type"] = "none", ["id"] = 0 },
-        [6] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 51817, [2] = 50697, [3] = 51313, [4] = 50645, [5] = 49903
+    }, [1] = 51313, [2] = 51126, [3] = 51817, [4] = 50097, [5] = 49903
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
 [10] = {
     ["slot_name"] = "Feet", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 60763 },
+        [1] = { ["type"] = "spell", ["id"] = 55016 },
         [2] = { ["type"] = "item", ["id"] = 40117 },
-        [3] = { ["type"] = "none", ["id"] = 0 },
+        [3] = { ["type"] = "spell", ["id"] = 60763 },
         [4] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 54578, [2] = 50639, [3] = 53125, [4] = 50607, [5] = 51915
+    }, [1] = 54578, [2] = 50639, [3] = 53125, [4] = 49983, [5] = 49906
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
 [11] = {
     ["slot_name"] = "Finger", ["enhs"] = {
-        [1] = { ["type"] = "none", ["id"] = 0 },
-        [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 52572, [2] = 50693, [3] = 54576, [4] = 50618, [5] = 54567
+        [1] = { ["type"] = "item", ["id"] = 40143 },
+        [2] = { ["type"] = "item", ["id"] = 40143 }
+    }, [1] = 52572, [2] = 50693, [3] = 54567, [4] = 50618, [5] = 54576
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
 [12] = {
     ["slot_name"] = "Trinket", ["enhs"] = {
-    }, [1] = 50363, [2] = 54590, [3] = 50362, [4] = 54569, [5] = 47131
+    }, [1] = 50363, [2] = 54590, [3] = 50343, [4] = 47464, [5] = 47214
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
@@ -240,7 +240,7 @@ Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
     ["slot_name"] = "Weapon", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 53343 },
         [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 50737, [2] = 50672, [3] = 50412, [4] = 50012, [5] = 51893
+    }, [1] = 50737, [2] = 50672, [3] = 51893, [4] = 51916, [5] = 50012
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
@@ -248,7 +248,7 @@ Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]
     ["slot_name"] = "Off hand", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 53344 },
         [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 50737, [2] = 50672, [3] = 50412, [4] = 50012, [5] = 51893
+    }, [1] = 50737, [2] = 50672, [3] = 51893, [4] = 51916, [5] = 50012
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Frost"]["Class"]

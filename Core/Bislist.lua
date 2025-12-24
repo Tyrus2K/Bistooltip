@@ -641,7 +641,7 @@ function BistooltipAddon:createMainFrame()
     buttonContainer:AddChild(talentsButton)
 
     local noteLabel = AceGUI:Create("Label")
-    noteLabel:SetText("Às vezes, os servidores não permitem consultar muitos itens ao mesmo tempo, vai dando reload caso te apareça um ponto de interrogação vermelho em vez de items.")
+    noteLabel:SetText("Se te aparecer um ponto de interrogação vermelho em vez de um item/gema/enchant carrega no botão (Reload)")
     noteLabel:SetWidth(425)
     noteLabel:SetFont(GameFontNormal:GetFont(), 10)
 

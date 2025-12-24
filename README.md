@@ -8,16 +8,16 @@
 
 <img width="497" height="606" alt="Bistooltip" src="https://github.com/user-attachments/assets/92a413d5-1de0-4c38-99be-10cf434797a7" />
 
-## Dependencias
+## Dependências
 
-* Para o correto funcionamento do Addon é necessario usar os Addons - [![Download](https://img.shields.io/badge/DataStore-📁-1784d1?style=flat-square)](https://github.com/Thaoky/DataStore) e [![Download](https://img.shields.io/badge/DataStore_Inventory-📁-1784d1?style=flat-square)](https://github.com/Thaoky/DataStore_Inventory?tab=readme-ov-file)
+* Para o correto funcionamento do Addon é necessário usar os Addons - [![Download](https://img.shields.io/badge/DataStore-📁-1784d1?style=flat-square)](https://github.com/Thaoky/DataStore) e [![Download](https://img.shields.io/badge/DataStore_Inventory-📁-1784d1?style=flat-square)](https://github.com/Thaoky/DataStore_Inventory?tab=readme-ov-file)
 
 ## Instalação
 
 1. Fazer download do Bistooltip-main
-2. Fazer download das Dependencias (DataStore e DataStore_Inventory)
+2. Fazer download das Dependências (DataStore e DataStore_Inventory)
 3. Alterar o nome do ficheiro dentro do ZIP de Bistooltip.main para Bistooltip
-4. Meter o Addon e as Dependencias na pasta "Addons"
+4. Meter o Addon e as Dependências na pasta "Addons"
 
 
 

@@ -83,8 +83,8 @@ end
 
 function BistooltipAddon:OnInitialize()
     createEquipmentWatcher()
-    BistooltipAddon.AceAddonName = "Bis-Tooltip Warmane"
-    BistooltipAddon.AddonNameAndVersion = "Bis-Tooltip - Warmane"
+    BistooltipAddon.AceAddonName = "Bis-Tooltip WoTLK"
+    BistooltipAddon.AddonNameAndVersion = "Bis-Tooltip - WoTLK"
     BistooltipAddon:initConfig()
     BistooltipAddon:addMapIcon()
     BistooltipAddon:initBislists()

@@ -263,18 +263,18 @@ Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
 [1] = {
     ["slot_name"] = "Head", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 44879 },
-        [2] = { ["type"] = "item", ["id"] = 41398 },
+        [2] = { ["type"] = "item", ["id"] = 41285 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40111 }
-    }, [1] = 51312, [2] = 50712, [3] = 50072, [4] = 49466, [5] = 51866
+    }, [1] = 51312, [2] = 51127, [3] = 50096, [4] = 50712, [5] = 51866
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
 [2] = {
     ["slot_name"] = "Neck", ["enhs"] = {
         [1] = { ["type"] = "none", ["id"] = 0 },
-        [2] = { ["type"] = "item", ["id"] = 40143 }
-    }, [1] = 54581, [2] = 50647, [3] = 51890, [4] = 49989, [5] = 47110
+        [2] = { ["type"] = "item", ["id"] = 40111 }
+    }, [1] = 54581, [2] = 50728, [3] = 53132, [4] = 50647, [5] = 50633
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
@@ -282,15 +282,15 @@ Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
     ["slot_name"] = "Shoulder", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 44871 },
         [2] = { ["type"] = "item", ["id"] = 40111 }
-    }, [1] = 51314, [2] = 50674, [3] = 51865, [4] = 50020, [5] = 48486
+    }, [1] = 51314, [2] = 51125, [3] = 50098, [4] = 50674, [5] = 51865
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
 [4] = {
     ["slot_name"] = "Back", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 47898 },
-        [2] = { ["type"] = "item", ["id"] = 40146 }
-    }, [1] = 50677, [2] = 47547, [3] = 48674, [4] = 47192, [5] = 50653
+        [2] = { ["type"] = "item", ["id"] = 40111 }
+    }, [1] = 50677, [2] = 47547, [3] = 50019, [4] = 51912, [5] = 47545
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
@@ -299,36 +299,37 @@ Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
         [1] = { ["type"] = "spell", ["id"] = 60692 },
         [2] = { ["type"] = "item", ["id"] = 40111 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40111 }
-    }, [1] = 51310, [2] = 50606, [3] = 47086, [4] = 49951, [5] = 51902
+        [4] = { ["type"] = "item", ["id"] = 40129 }
+    }, [1] = 51310, [2] = 51129, [3] = 50094, [4] = 50606, [5] = 51902
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
 [6] = {
     ["slot_name"] = "Wrist", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 44575 },
-        [2] = { ["type"] = "item", ["id"] = 40146 }
-    }, [1] = 50659, [2] = 50002, [3] = 54580, [4] = 54559, [5] = 47155
+        [2] = { ["type"] = "item", ["id"] = 40111 }
+    }, [1] = 50659, [2] = 51832, [3] = 50002, [4] = 54580, [5] = 54559
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
 [7] = {
     ["slot_name"] = "Hands", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 33995 },
-        [2] = { ["type"] = "item", ["id"] = 40146 }
-    }, [1] = 51311, [2] = 51844, [3] = 51892, [4] = 50690, [5] = 51128
+        [1] = { ["type"] = "spell", ["id"] = 54999 },
+        [2] = { ["type"] = "item", ["id"] = 40146 },
+        [3] = { ["type"] = "spell", ["id"] = 33995 }
+    }, [1] = 51311, [2] = 51128, [3] = 50095, [4] = 50690, [5] = 50037
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
 [8] = {
     ["slot_name"] = "Waist", ["enhs"] = {
-        [1] = { ["type"] = "none", ["id"] = 0 },
+        [1] = { ["type"] = "item", ["id"] = 41611 },
         [2] = { ["type"] = "item", ["id"] = 40146 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40111 },
         [5] = { ["type"] = "none", ["id"] = 0 },
         [6] = { ["type"] = "item", ["id"] = 40111 }
-    }, [1] = 50620, [2] = 51879, [3] = 50987, [4] = 47112, [5] = 51925
+    }, [1] = 50620, [2] = 51821, [3] = 51879, [4] = 50987, [5] = 50187
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
@@ -348,45 +349,55 @@ Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
     ["slot_name"] = "Feet", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 60763 },
         [2] = { ["type"] = "item", ["id"] = 40111 },
-        [3] = { ["type"] = "none", ["id"] = 0 },
+        [3] = { ["type"] = "spell", ["id"] = 55016 },
         [4] = { ["type"] = "item", ["id"] = 40111 }
-    }, [1] = 54578, [2] = 53125, [3] = 50639, [4] = 50711, [5] = 49983
+    }, [1] = 54578, [2] = 50639, [3] = 53125, [4] = 49983, [5] = 49906
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
 [11] = {
     ["slot_name"] = "Finger", ["enhs"] = {
-        [1] = { ["type"] = "none", ["id"] = 0 },
-        [2] = { ["type"] = "item", ["id"] = 40146 }
-    }, [1] = 52572, [2] = 50693, [3] = 50604, [4] = 54576, [5] = 54567
+        [1] = { ["type"] = "item", ["id"] = 40111 },
+        [2] = { ["type"] = "item", ["id"] = 40111 }
+    }, [1] = 52572, [2] = 50693, [3] = 51855, [4] = 54567, [5] = 54576
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
 [12] = {
     ["slot_name"] = "Trinket", ["enhs"] = {
-    }, [1] = 50363, [2] = 54590, [3] = 50362, [4] = 47131, [5] = 54569
+    }, [1] = 50363, [2] = 54590, [3] = 50343, [4] = 47464, [5] = 47214
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
 [13] = {
-    ["slot_name"] = "Weapon", ["enhs"] = {
+    ["slot_name"] = "Two Hand", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 53344 },
         [2] = { ["type"] = "item", ["id"] = 40111 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40111 },
         [5] = { ["type"] = "none", ["id"] = 0 },
         [6] = { ["type"] = "item", ["id"] = 40111 }
-    }, [1] = 49623, [2] = 50737, [3] = 50672, [4] = 50012, [5] = 51858
+    }, [1] = 49623, [2] = 51946, [3] = 49888, [4] = -1, [5] = -1
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
 [14] = {
-    ["slot_name"] = "Off hand", ["enhs"] = {
-    }, [1] = 50737, [2] = 50672, [3] = 50012, [4] = 51858, [5] = 51893
+    ["slot_name"] = "One Hand", ["enhs"] = {
+        [1] = { ["type"] = "spell", ["id"] = 53344 },
+        [2] = { ["type"] = "item", ["id"] = 40111 }
+    }, [1] = 50737, [2] = 50672, [3] = 50708, [4] = 51893, [5] = 51858
 }
 
 Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
 [15] = {
+    ["slot_name"] = "Off hand", ["enhs"] = {
+        [1] = { ["type"] = "spell", ["id"] = 53344 },
+        [2] = { ["type"] = "item", ["id"] = 40111 }
+    }, [1] = 50737, [2] = 50672, [3] = 50708, [4] = 51893, [5] = 51858
+}
+
+Bistooltip_wowtbc_bislists["Death knight"]["Unholy"]["Class"]
+[16] = {
     ["slot_name"] = "Relic", ["enhs"] = {
     }, [1] = 50459, [2] = 47673, [3] = 45254, [4] = 42620, [5] = 40867
 }

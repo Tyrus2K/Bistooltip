@@ -28,9 +28,11 @@ local boemarks = {}
 
 local isHorde = UnitFactionGroup("player") == "Horde"
 
+local BoECache = {}
+
 local function IsItemBoE(itemID)
-    if not itemID then
-        return false
+    if BoECache[itemID] ~= nil then
+        return BoECache[itemID]
     end
 
     if not BoECheckTooltip then
@@ -40,25 +42,26 @@ local function IsItemBoE(itemID)
     local tooltip = BoECheckTooltip
     tooltip:SetOwner(UIParent, "ANCHOR_NONE")
     tooltip:ClearLines()
-
     tooltip:SetHyperlink("item:" .. itemID)
 
     for i = 2, tooltip:NumLines() do
         local line = _G["BoECheckTooltipTextLeft" .. i]
         if line then
             local text = line:GetText()
-            if text then
-                if text == ITEM_BIND_ON_EQUIP then
-                    return true
-                elseif text == ITEM_BIND_ON_PICKUP then
-                    return false
-                end
+            if text == ITEM_BIND_ON_EQUIP then
+                BoECache[itemID] = true
+                return true
+            elseif text == ITEM_BIND_ON_PICKUP then
+                BoECache[itemID] = false
+                return false
             end
         end
     end
 
+    BoECache[itemID] = false
     return false
 end
+
 
 local function createItemFrame(item_id, size, ItemEquipped, ItemInInventory, BoEItem)
     if item_id < 0 then
@@ -77,7 +80,6 @@ local function createItemFrame(item_id, size, ItemEquipped, ItemInInventory, BoE
         item_id = aliItemID
     end
 
-    GameTooltip:SetHyperlink("item:" .. item_id .. ":0:0:0:0:0:0:0")
     local itemName, itemLink, _, _, _, _, _, _, _, itemIcon, _, _, _, _ = GetItemInfo(item_id)
 
     if not itemName then
@@ -274,23 +276,51 @@ local function clearBoeMarks()
     boemarks = {}
 end
 
+local drawQueue = {}
+local drawWorker = CreateFrame("Frame")
+drawWorker:Hide()
+
+drawWorker:SetScript("OnUpdate", function(self)
+    local maxPerFrame = 2
+    local count = 0
+
+    while count < maxPerFrame do
+        local slot = table.remove(drawQueue, 1)
+        if not slot then
+            self:Hide()
+            return
+        end
+        drawItemSlot(slot)
+        count = count + 1
+    end
+end)
+
 local function drawSpecData()
     clearCheckMarks()
     clearYellowCheckMarks()
     clearBoeMarks()
     saveData()
+
     items = {}
     spells = {}
+
     spec_frame:ReleaseChildren()
     drawTableHeader(spec_frame)
+
     if not spec or not phase then
         return
     end
+
     local slots = Bistooltip_bislists[class][spec][phase]
+
+    wipe(drawQueue)
     for _, slot in ipairs(slots) do
-        drawItemSlot(slot)
+        table.insert(drawQueue, slot)
     end
+
+    drawWorker:Show()
 end
+
 
 local function buildClassDict()
     if not Bistooltip_classes or type(Bistooltip_classes) ~= "table" then

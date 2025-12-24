@@ -21,7 +21,6 @@ Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
 Data\Loot_Sources.lua
 Data\Bistooltip_classes.lua
 Data\Bistooltip_wowtbc_bislists.lua
-Data\Bistooltip_wowtbc_bislists_old.lua
 Data\Bistooltip_horde_to_ali.lua
 
 Core\Core.lua

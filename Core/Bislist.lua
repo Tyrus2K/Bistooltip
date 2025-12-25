@@ -488,45 +488,6 @@ function BistooltipAddon:reloadData()
     end
 end
 
-function BistooltipAddon:OpenDiscordLink()
-    BistooltipAddon:closeMainFrame()
-    StaticPopup_Show("DISCORD_LINK_DIALOG")
-    StaticPopupDialogs["DISCORD_LINK_DIALOG"].preferredIndex = 4
-end
-
-StaticPopupDialogs["DISCORD_LINK_DIALOG"] = {
-    text = "Entra no Discord",
-    button2 = "Fechar",
-    OnShow = function(self)
-        self.editBox:SetText("https://discord.gg/r4KfShDGuT")
-        self.editBox:SetFocus()
-        self.editBox:HighlightText()
-        self.editBox:SetWidth(200)
-    end,
-    timeout = 0,
-    whileDead = true,
-    hideOnEscape = true,
-    preferredIndex = 4,
-    hasEditBox = true,
-    EditBoxOnEscapePressed = function(self)
-        self:GetParent():Hide()
-        BistooltipAddon:createMainFrame()
-    end,
-    OnHide = function(self)
-        self.data = nil
-    end,
-    EditBoxOnTextChanged = function(self, userInput)
-        if userInput then
-            self:SetText(self.data)
-            self:HighlightText()
-        end
-    end,
-    OnCancel = function(self)
-        self:Hide()
-        BistooltipAddon:createMainFrame()
-    end
-}
-
 function BistooltipAddon:OpenTalentsLink()
     BistooltipAddon:closeMainFrame()
     StaticPopup_Show("TALENTS_LINK_DIALOG")
@@ -623,14 +584,6 @@ function BistooltipAddon:createMainFrame()
         BistooltipAddon:reloadData()
     end)
     buttonContainer:AddChild(reloadButton)
-
-    local discordButton = AceGUI:Create("Button")
-    discordButton:SetText("Discord")
-    discordButton:SetWidth(138)
-    discordButton:SetCallback("OnClick", function()
-        BistooltipAddon:OpenDiscordLink()
-    end)
-    buttonContainer:AddChild(discordButton)
 
     local talentsButton = AceGUI:Create("Button")
     talentsButton:SetText("Talents")

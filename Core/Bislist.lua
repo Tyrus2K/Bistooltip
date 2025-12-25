@@ -488,6 +488,45 @@ function BistooltipAddon:reloadData()
     end
 end
 
+function BistooltipAddon:OpenGithubLink()
+    BistooltipAddon:closeMainFrame()
+    StaticPopup_Show("Github_LINK_DIALOG")
+    StaticPopupDialogs["Github_LINK_DIALOG"].preferredIndex = 4
+end
+
+StaticPopupDialogs["Github_LINK_DIALOG"] = {
+    text = "Link do Github para o Addon                    (carregar CTRL+C e meter no google)",
+    button2 = "Fechar",
+    OnShow = function(self)
+        self.editBox:SetText("https://github.com/Tyrus2K/Bistooltip")
+        self.editBox:SetFocus()
+        self.editBox:HighlightText()
+        self.editBox:SetWidth(200)
+    end,
+    timeout = 0,
+    whileDead = true,
+    hideOnEscape = true,
+    preferredIndex = 4,
+    hasEditBox = true,
+    EditBoxOnEscapePressed = function(self)
+        self:GetParent():Hide()
+        BistooltipAddon:createMainFrame()
+    end,
+    OnHide = function(self)
+        self.data = nil
+    end,
+    EditBoxOnTextChanged = function(self, userInput)
+        if userInput then
+            self:SetText(self.data)
+            self:HighlightText()
+        end
+    end,
+    OnCancel = function(self)
+        self:Hide()
+        BistooltipAddon:createMainFrame()
+    end
+}
+
 function BistooltipAddon:OpenTalentsLink()
     BistooltipAddon:closeMainFrame()
     StaticPopup_Show("TALENTS_LINK_DIALOG")
@@ -584,6 +623,14 @@ function BistooltipAddon:createMainFrame()
         BistooltipAddon:reloadData()
     end)
     buttonContainer:AddChild(reloadButton)
+
+    local GithubButton = AceGUI:Create("Button")
+    GithubButton:SetText("Github")
+    GithubButton:SetWidth(138)
+    GithubButton:SetCallback("OnClick", function()
+        BistooltipAddon:OpenGithubLink()
+    end)
+    buttonContainer:AddChild(GithubButton)
 
     local talentsButton = AceGUI:Create("Button")
     talentsButton:SetText("Talents")

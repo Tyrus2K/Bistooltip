@@ -483,7 +483,7 @@ Bistooltip_wowtbc_bislists["Druid"]["Balance"]["Class"]
     ["slot_name"] = "Neck", ["enhs"] = {
         [1] = { ["type"] = "none", ["id"] = 0 },
         [2] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50724, [2] = 50658, [3] = 50609, [4] = 51894, [5] = 50182
+    }, [1] = 50724, [2] = 50658, [3] = 51894, [4] = 50182, [5] = 50609
 }
 
 Bistooltip_wowtbc_bislists["Druid"]["Balance"]["Class"]
@@ -518,7 +518,7 @@ Bistooltip_wowtbc_bislists["Druid"]["Balance"]["Class"]
     ["slot_name"] = "Wrist", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 60767 },
         [2] = { ["type"] = "item", ["id"] = 40155 }
-    }, [1] = 54582, [2] = 54584, [3] = 50651, [4] = 49994, [5] = 50630
+    }, [1] = 54582, [2] = 54584, [3] = 50651, [4] = 53486, [5] = 49994
 }
 
 Bistooltip_wowtbc_bislists["Druid"]["Balance"]["Class"]
@@ -539,7 +539,7 @@ Bistooltip_wowtbc_bislists["Druid"]["Balance"]["Class"]
         [4] = { ["type"] = "item", ["id"] = 40113 },
         [5] = { ["type"] = "none", ["id"] = 0 },
         [6] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50613, [2] = 54562, [3] = 50705, [4] = 49978, [5] = 50994
+    }, [1] = 50613, [2] = 54562, [3] = 49978, [4] = 50994, [5] = 50705
 }
 
 Bistooltip_wowtbc_bislists["Druid"]["Balance"]["Class"]

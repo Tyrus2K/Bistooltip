@@ -29,6 +29,9 @@ local boemarks = {}
 local isHorde = UnitFactionGroup("player") == "Horde"
 
 local BoECache = {}
+local talentsFrame
+local talentsTexture
+local talentsEscapeButton
 
 local function IsItemBoE(itemID)
     if BoECache[itemID] ~= nil then
@@ -62,7 +65,6 @@ local function IsItemBoE(itemID)
     return false
 end
 
-
 local function createItemFrame(item_id, size, ItemEquipped, ItemInInventory, BoEItem)
     if item_id < 0 then
         return AceGUI:Create("Label")
@@ -94,7 +96,7 @@ local function createItemFrame(item_id, size, ItemEquipped, ItemInInventory, BoE
         checkMark:SetWidth(32)
         checkMark:SetHeight(32)
         checkMark:SetPoint("CENTER", 6, -8)
-        checkMark:SetTexture("Interface\\AddOns\\Bistooltip\\Icons\\checkmark-16.tga")
+        checkMark:SetTexture("Interface\\AddOns\\Bistooltip\\Media\\checkmark-16.tga")
         table.insert(checkmarks, checkMark)
     end
 
@@ -103,7 +105,7 @@ local function createItemFrame(item_id, size, ItemEquipped, ItemInInventory, BoE
         YellowcheckMark:SetWidth(32)
         YellowcheckMark:SetHeight(32)
         YellowcheckMark:SetPoint("CENTER", 6, -8)
-        YellowcheckMark:SetTexture("Interface\\AddOns\\Bistooltip\\Icons\\checkmark-17.tga")
+        YellowcheckMark:SetTexture("Interface\\AddOns\\Bistooltip\\Media\\checkmark-17.tga")
         table.insert(Yellowcheckmarks, YellowcheckMark)
     end
 
@@ -321,7 +323,6 @@ local function drawSpecData()
     drawWorker:Show()
 end
 
-
 local function buildClassDict()
     if not Bistooltip_classes or type(Bistooltip_classes) ~= "table" then
         return
@@ -527,44 +528,172 @@ StaticPopupDialogs["Github_LINK_DIALOG"] = {
     end
 }
 
-function BistooltipAddon:OpenTalentsLink()
-    BistooltipAddon:closeMainFrame()
-    StaticPopup_Show("TALENTS_LINK_DIALOG")
-    StaticPopupDialogs["TALENTS_LINK_DIALOG"].preferredIndex = 4
+local function GetTalentTextureForCurrentSpec()
+    if not class or not spec then
+        return "Interface\\Icons\\INV_Misc_QuestionMark"
+    end
+
+    local c = string.lower(class)
+    local s = string.lower(spec)
+
+    if c == "warrior" then
+        if s == "fury" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\WarriorFury.tga"
+        elseif s == "protection" or s == "prot" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\WarriorProtection.tga"
+        end
+    elseif c == "paladin" then
+        if s == "holy" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\PaladinHoly.tga"
+        elseif s == "protection" or s == "prot" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\PaladinProtection.tga"
+        elseif s == "retribution" or s == "ret" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\PaladinRetribution.tga"
+        end
+    elseif c == "hunter" then
+        if s == "beast mastery" or s == "bm" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\HunterBeast.tga"
+        elseif s == "marksmanship" or s == "mm" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\HunterMarksman.tga"
+        elseif s == "survival" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\HunterSurvival.tga"
+        end
+    elseif c == "rogue" then
+        if s == "assassination" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\RogueAssassin.tga"
+        elseif s == "combat" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\RogueCombat.tga"
+        end
+    elseif c == "priest" then
+        if s == "discipline" or s == "disc" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\PriestDiscipline.tga"
+        elseif s == "holy" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\PriestHoly.tga"
+        elseif s == "shadow" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\PriestShadow.tga"
+        end
+    elseif c == "death knight" or c == "deathknight" or c == "dk" then
+        if s == "blood tank" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\DKBloodTank.tga"
+        elseif s == "frost" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\DKFrost.tga"
+        elseif s == "unholy" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\DKUnholy.tga"
+        end
+    elseif c == "shaman" then
+        if s == "elemental" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\ShamanElemental.tga"
+        elseif s == "enhancement" or s == "enh" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\ShamanEnhancement.tga"
+        elseif s == "restoration" or s == "resto" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\ShamanRestoration.tga"
+        end
+    elseif c == "mage" then
+        if s == "arcane" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\MageArcane.tga"
+        elseif s == "fire" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\MageFire.tga"
+        elseif s == "frost" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\MageFrost.tga"
+        end
+    elseif c == "warlock" then
+        if s == "affliction" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\WarlockAffliction.tga"
+        elseif s == "demonology" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\WarlockDemo.tga"
+        elseif s == "destruction" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\WarlockDestruction.tga"
+        end
+    elseif c == "druid" then
+        if s == "balance" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\DruidBalance.tga"
+        elseif s == "feral dps" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\DruidFeralDPS.tga"
+        elseif s == "feral tank" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\DruidFeralTank.tga"
+        elseif s == "restoration" or s == "resto" then
+            return "Interface\\AddOns\\Bistooltip\\Media\\Talents\\DruidRestoration.tga"
+        end
+    end
+
+    return "Interface\\Icons\\INV_Misc_QuestionMark"
 end
 
-StaticPopupDialogs["TALENTS_LINK_DIALOG"] = {
-    text = "Link do Google Docs com os Talents          (carregar CTRL+C e meter no google)",
-    button2 = "Fechar",
-    OnShow = function(self)
-        self.editBox:SetText("https://docs.google.com/document/d/15-YfmuUP7Tx41K59pPeltLoCI8PQEu6aWXindoOw0BE/edit?tab=t.0")
-        self.editBox:SetFocus()
-        self.editBox:HighlightText()
-        self.editBox:SetWidth(300)
-    end,
-    timeout = 0,
-    whileDead = true,
-    hideOnEscape = true,
-    preferredIndex = 4,
-    hasEditBox = true,
-    EditBoxOnEscapePressed = function(self)
-        self:GetParent():Hide()
-        BistooltipAddon:createMainFrame()
-    end,
-    OnHide = function(self)
-        self.data = nil
-    end,
-    EditBoxOnTextChanged = function(self, userInput)
-        if userInput then
-            self:SetText(self.data)
-            self:HighlightText()
-        end
-    end,
-    OnCancel = function(self)
-        self:Hide()
-        BistooltipAddon:createMainFrame()
+local function ResizeTalentsFrameToTexture()
+    if not talentsFrame or not talentsTexture then
+        return
     end
-}
+
+    local w, h = talentsTexture:GetSize()
+    if not w or w <= 0 or not h or h <= 0 then
+        w = talentsTexture:GetTextureWidth()
+        h = talentsTexture:GetTextureHeight()
+    end
+
+    if w and h and w > 0 and h > 0 then
+        talentsFrame:SetSize(w, h)
+    end
+end
+
+local function EnableTalentsEsc()
+    if not talentsEscapeButton then
+        talentsEscapeButton = CreateFrame("Button", "BisTooltipTalentsEscapeButton", UIParent, "SecureActionButtonTemplate")
+        talentsEscapeButton:SetAttribute("type", "click")
+        talentsEscapeButton:SetScript("OnClick", function()
+            if talentsFrame and talentsFrame:IsShown() then
+                talentsFrame:Hide()
+            end
+        end)
+    end
+    SetOverrideBindingClick(talentsEscapeButton, false, "ESCAPE", "BisTooltipTalentsEscapeButton")
+end
+
+local function DisableTalentsEsc()
+    if talentsEscapeButton then
+        ClearOverrideBindings(talentsEscapeButton)
+    end
+end
+
+function BistooltipAddon:ShowTalentsImage()
+    local texPath = GetTalentTextureForCurrentSpec()
+
+    if talentsFrame then
+        if talentsTexture then
+            talentsTexture:SetTexture(texPath)
+            ResizeTalentsFrameToTexture()
+        end
+
+        if talentsFrame:IsShown() then
+            talentsFrame:Hide()
+            DisableTalentsEsc()
+        else
+            talentsFrame:Show()
+            EnableTalentsEsc()
+        end
+        return
+    end
+
+    talentsFrame = CreateFrame("Frame", "BisTooltipTalentsFrame", UIParent)
+    talentsFrame:SetPoint("CENTER")
+    talentsFrame:SetFrameStrata("DIALOG")
+    talentsFrame:EnableMouse(true)
+    talentsFrame:SetMovable(true)
+    talentsFrame:RegisterForDrag("LeftButton")
+    talentsFrame:SetScript("OnDragStart", talentsFrame.StartMoving)
+    talentsFrame:SetScript("OnDragStop", talentsFrame.StopMovingOrSizing)
+    talentsFrame:SetClampedToScreen(true)
+    talentsFrame:SetScript("OnHide", DisableTalentsEsc)
+
+    talentsTexture = talentsFrame:CreateTexture(nil, "ARTWORK")
+    talentsTexture:SetPoint("TOPLEFT", talentsFrame, "TOPLEFT", 0, 0)
+    talentsTexture:SetPoint("BOTTOMRIGHT", talentsFrame, "BOTTOMRIGHT", 0, 0)
+    talentsTexture:SetTexture(texPath)
+
+    ResizeTalentsFrameToTexture()
+
+    talentsFrame:Show()
+    EnableTalentsEsc()
+end
 
 function BistooltipAddon:createMainFrame()
     if main_frame then
@@ -578,6 +707,10 @@ function BistooltipAddon:createMainFrame()
         close:SetAttribute("type", "click")
         close:SetScript("OnClick", function()
             BistooltipAddon:closeMainFrame()
+            if talentsFrame:IsShown() then
+                talentsFrame:Hide()
+                DisableTalentsEsc()
+            end
         end)
         close:Hide()
         BistooltipAddon.EscapeButton = close
@@ -591,6 +724,10 @@ function BistooltipAddon:createMainFrame()
     main_frame.frame:SetMaxResize(800, 600)
 
     main_frame:SetCallback("OnClose", function(widget)
+        if talentsFrame:IsShown() then
+            talentsFrame:Hide()
+            DisableTalentsEsc()
+        end
         clearCheckMarks()
         clearYellowCheckMarks()
         clearBoeMarks()
@@ -636,7 +773,7 @@ function BistooltipAddon:createMainFrame()
     talentsButton:SetText("Talents")
     talentsButton:SetWidth(138)
     talentsButton:SetCallback("OnClick", function()
-        BistooltipAddon:OpenTalentsLink()
+        BistooltipAddon:ShowTalentsImage()
     end)
     buttonContainer:AddChild(talentsButton)
 

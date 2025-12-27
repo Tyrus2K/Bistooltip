@@ -1,7 +1,7 @@
 ## Interface: 30300
-## Title: BiS-Tooltip-3.3.5a
+## Title: Bistooltip
 ## Author: Tyrus
-## Version: Alfa 0.8
+## Version: v0.7.15-alpha
 ## SavedVariables: BisTooltipDB
 ## OptionalDeps: Ace3, DataStore, DataStore_Inventory
 

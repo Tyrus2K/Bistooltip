@@ -6,7 +6,7 @@
 
 ## Screenshots
 
-<img width="497" height="606" alt="Bistooltip" src="https://github.com/user-attachments/assets/92a413d5-1de0-4c38-99be-10cf434797a7" />
+<img width="760" height="933" alt="Bistooltip" src="https://github.com/user-attachments/assets/b13a5ca9-664b-48bd-a099-465a7856131b" />
 
 ## Dependências
 

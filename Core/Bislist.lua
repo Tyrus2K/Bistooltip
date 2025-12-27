@@ -707,7 +707,7 @@ function BistooltipAddon:createMainFrame()
         close:SetAttribute("type", "click")
         close:SetScript("OnClick", function()
             BistooltipAddon:closeMainFrame()
-            if talentsFrame:IsShown() then
+            if talentsFrame and talentsFrame:IsShown() then
                 talentsFrame:Hide()
                 DisableTalentsEsc()
             end
@@ -724,7 +724,7 @@ function BistooltipAddon:createMainFrame()
     main_frame.frame:SetMaxResize(800, 600)
 
     main_frame:SetCallback("OnClose", function(widget)
-        if talentsFrame:IsShown() then
+        if talentsFrame and talentsFrame:IsShown() then
             talentsFrame:Hide()
             DisableTalentsEsc()
         end

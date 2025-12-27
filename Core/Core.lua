@@ -1,5 +1,5 @@
 BistooltipAddon = LibStub("AceAddon-3.0"):NewAddon("Bis-Tooltip")
-BistooltipAddon.CodeVersion = 6.3
+
 Bistooltip_char_equipment = {}
 
 local function collectItemIDs(bislists)
@@ -70,7 +70,7 @@ local function createEquipmentWatcher()
         for _, bisID in ipairs(listIDs) do
             local count = GetItemCount(bisID, true)
             if count > 0 then
-                -- Se não equipado (valor 2) então está no inventario/banco (valor 1)
+                -- Se nÃ£o equipado (valor 2) entÃ£o estÃ¡ no inventario/banco (valor 1)
                 if not collection[bisID] then
                     collection[bisID] = 1
                 end

@@ -28,9 +28,9 @@ local configTable = {
     type = "group",
     args = {
         minimap_icon = {
-            name = "Botão no Minimapa",
+            name = "BotÃ£o no Minimapa",
             order = 0,
-            desc = "Mostra/Esconde o botão no minimapa",
+            desc = "Mostra/Esconde o botÃ£o no minimapa",
             type = "toggle",
             set = function(_, val)
                 BistooltipAddon.db.char.minimap_icon = val
@@ -62,7 +62,7 @@ local configTable = {
             end
         },
         data_source = {
-            name = "Fonte de informação",
+            name = "Fonte de informaÃ§Ã£o",
             order = 3,
             desc = "BIS usado pela guild V I N T A G E",
             type = "select",
@@ -98,7 +98,7 @@ local function openSourceSelectDialog()
     frame:AddChild(labelEmpty)
 
     local label = AceGUI:Create("Label")
-    label:SetText("Seleciona a fonte de informação para aparecer a lista de BIS:")
+    label:SetText("Seleciona a fonte de informaÃ§Ã£o para aparecer a lista de BIS:")
     label:SetFont("Fonts\\FRIZQT__.TTF", 14, "")
     label:SetRelativeWidth(1)
     frame:AddChild(label)
@@ -119,8 +119,6 @@ local function openSourceSelectDialog()
     frame:AddChild(sourceDropdown)
 end
 
-local CURRENT_DB_VERSION = 6.2
-
 local function migrateAddonDB()
     if not BistooltipAddon.db.char.version then
         BistooltipAddon.db.char.version = 6.1
@@ -136,8 +134,6 @@ local function migrateAddonDB()
     if BistooltipAddon.db.char.version == 6.1 then
         BistooltipAddon.db.char.version = 6.2
     end
-
-    BistooltipAddon.db.char.version = CURRENT_DB_VERSION
 end
 
 local config_shown = false
@@ -193,8 +189,8 @@ function BistooltipAddon:addMapIcon()
                 end,
                 OnTooltipShow = function(tt)
                     tt:AddLine(BistooltipAddon.AddonNameAndVersion)
-                    tt:AddLine("|cffffff00Botão Esquerdo|r para abrir a lista de items BIS")
-                    tt:AddLine("|cffffff00Botão Direito|r para abrir as configurações")
+                    tt:AddLine("|cffffff00BotÃ£o Esquerdo|r para abrir a lista de items BIS")
+                    tt:AddLine("|cffffff00BotÃ£o Direito|r para abrir as configuraÃ§Ãµes")
                 end
             })
             if LDataBrokerIcon then
@@ -216,21 +212,11 @@ end
 
 function BistooltipAddon:initConfig()
     BistooltipAddon.db = LibStub("AceDB-3.0"):New("BisTooltipDB", db_defaults, "Default")
-    migrateAddonDB()
-    local function CheckForOutdatedVersion()
-        if not BistooltipAddon.CodeVersion then
-            return
-        end
 
-        local saved = BistooltipAddon.db.char.version or 0
-        if saved < BistooltipAddon.CodeVersion then
-            print("|cffff0000[Bis-Tooltip]|r A tua versão do Addon está desatualizada. "
-                    .. "Carrega no botão (GITHUB) e faz download da versão mais recente do addon.")
-        end
-    end
+    migrateAddonDB()
+
     enableSpec(BistooltipAddon.db.char.data_source)
+
     LibStub("AceConfig-3.0"):RegisterOptionsTable(BistooltipAddon.AceAddonName, configTable)
     AceConfigDialog:AddToBlizOptions(BistooltipAddon.AceAddonName, BistooltipAddon.AceAddonName)
-
-    CheckForOutdatedVersion()
 end

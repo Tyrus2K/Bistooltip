@@ -2,6 +2,7 @@
 ## Title: Bistooltip
 ## Author: Tyrus
 ## Version: v0.7.15-alpha
+## Notes: Shows you the BIS Items/Gems/Enchants and Talents for each class in WoTLK.
 ## SavedVariables: BisTooltipDB
 ## OptionalDeps: Ace3, DataStore, DataStore_Inventory
 

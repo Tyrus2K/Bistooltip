@@ -119,6 +119,8 @@ local function openSourceSelectDialog()
     frame:AddChild(sourceDropdown)
 end
 
+local CURRENT_DB_VERSION = 6.2
+
 local function migrateAddonDB()
     if not BistooltipAddon.db.char.version then
         BistooltipAddon.db.char.version = 6.1
@@ -134,6 +136,8 @@ local function migrateAddonDB()
     if BistooltipAddon.db.char.version == 6.1 then
         BistooltipAddon.db.char.version = 6.2
     end
+
+    BistooltipAddon.db.char.version = CURRENT_DB_VERSION
 end
 
 local config_shown = false
@@ -212,11 +216,21 @@ end
 
 function BistooltipAddon:initConfig()
     BistooltipAddon.db = LibStub("AceDB-3.0"):New("BisTooltipDB", db_defaults, "Default")
-
     migrateAddonDB()
+    local function CheckForOutdatedVersion()
+        if not BistooltipAddon.CodeVersion then
+            return
+        end
 
+        local saved = BistooltipAddon.db.char.version or 0
+        if saved < BistooltipAddon.CodeVersion then
+            print("|cffff0000[Bis-Tooltip]|r A tua versão dos dados BIS está desatualizada. "
+                    .. "Por favor faz download da versão mais recente do addon.")
+        end
+    end
     enableSpec(BistooltipAddon.db.char.data_source)
-
     LibStub("AceConfig-3.0"):RegisterOptionsTable(BistooltipAddon.AceAddonName, configTable)
     AceConfigDialog:AddToBlizOptions(BistooltipAddon.AceAddonName, BistooltipAddon.AceAddonName)
+
+    CheckForOutdatedVersion()
 end

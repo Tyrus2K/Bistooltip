@@ -1,5 +1,5 @@
 BistooltipAddon = LibStub("AceAddon-3.0"):NewAddon("Bis-Tooltip")
-
+BistooltipAddon.CodeVersion = 6.2
 Bistooltip_char_equipment = {}
 
 local function collectItemIDs(bislists)

@@ -224,8 +224,8 @@ function BistooltipAddon:initConfig()
 
         local saved = BistooltipAddon.db.char.version or 0
         if saved < BistooltipAddon.CodeVersion then
-            print("|cffff0000[Bis-Tooltip]|r A tua versão dos dados BIS está desatualizada. "
-                    .. "Por favor faz download da versão mais recente do addon.")
+            print("|cffff0000[Bis-Tooltip]|r A tua versão do Addon está desatualizada. "
+                    .. "Carrega no botão (GITHUB) e faz download da versão mais recente do addon.")
         end
     end
     enableSpec(BistooltipAddon.db.char.data_source)

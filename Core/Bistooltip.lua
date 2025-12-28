@@ -72,14 +72,11 @@ function table.contains(table, element)
     return false
 end
 
-local DataStore_Inventory = DataStore_Inventory or nil
-
 local function GetItemSource(itemId)
     local source
 
     local function formatInstanceName(instance)
         local tmpInstance = string.lower(instance)
-
         if tmpInstance == "the obsidian sanctum (heroic)" then
             instance = "The Obsidian Sanctum(25)"
         elseif tmpInstance == "the eye of eternity (heroic)" then
@@ -89,7 +86,6 @@ local function GetItemSource(itemId)
         elseif tmpInstance == "ulduar (heroic)" then
             instance = "Ulduar (25)"
         end
-
         return instance
     end
 
@@ -97,22 +93,13 @@ local function GetItemSource(itemId)
         for boss, items in pairs(bosses) do
             if table.contains(items, itemId) then
                 local formattedZone = formatInstanceName(zone)
-                source = "|cFFFFFFFFSource:|r |cFF00FF00" .. formattedZone .. " - " .. boss .. "|r"
+                source = "|cFFFFFFFFSource:|r |cFF00FF00" ..
+                         formattedZone .. " - " .. boss .. "|r"
                 break
             end
         end
         if source then
             break
-        end
-    end
-
-    if not source then
-        local Instance, Boss = DataStore_Inventory:GetSource(itemId)
-        if Instance and Boss then
-            local formattedInstance = formatInstanceName(Instance)
-            source = "|cFFFFFFFFSource:|r |cFF00FF00" .. formattedInstance .. " - " .. Boss .. "|r"
-        else
-            return nil
         end
     end
 

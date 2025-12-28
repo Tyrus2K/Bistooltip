@@ -10,7 +10,7 @@
 
 ## Dependências
 
-* Para o correto funcionamento do Addon é necessário usar os Addons - [![Download](https://img.shields.io/badge/DataStore-📁-1784d1?style=flat-square)](https://github.com/Thaoky/DataStore) e [![Download](https://img.shields.io/badge/DataStore_Inventory-📁-1784d1?style=flat-square)](https://github.com/Thaoky/DataStore_Inventory?tab=readme-ov-file)
+* Não é necessário o uso de qualquer Addon extra para o funcionamento do Addon.
 
 ## Instalação
 

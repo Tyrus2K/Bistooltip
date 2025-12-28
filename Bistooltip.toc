@@ -1,11 +1,10 @@
 ## Interface: 30300
 ## Title: Bistooltip
 ## Author: Tyrus
-## Version: v0.7.15-alpha
+## Version: v0.8.1-alpha
 ## Notes: Shows you the BIS Items/Gems/Enchants and Talents for each class in WoTLK.
 ## SavedVariables: BisTooltipDB
-## Dependencies: DataStore, DataStore_Inventory
-## OptionalDeps: Ace3
+## OptionalDeps: Ace3, DataStore, DataStore_Inventory
 
 Libs\LibStub\LibStub.lua
 Libs\LibParse\LibParse.lua

@@ -10,7 +10,7 @@ local sources = {
 }
 
 Bistooltip_source_to_url = {
-    ["wowtbc"] = "V I N T A G E - Guild class BIS - Feito por Tyrus "
+    ["wowtbc"] = "V I N T A G E - Guild class BIS - by Tyrus "
 }
 
 local db_defaults = {
@@ -28,9 +28,9 @@ local configTable = {
     type = "group",
     args = {
         minimap_icon = {
-            name = "Botão no Minimapa",
+            name = "Minimap Button",
             order = 0,
-            desc = "Mostra/Esconde o botão no minimapa",
+            desc = "Show/Hide the minimap button",
             type = "toggle",
             set = function(_, val)
                 BistooltipAddon.db.char.minimap_icon = val
@@ -49,9 +49,9 @@ local configTable = {
             end
         },
         tooltip_with_ctrl = {
-            name = "Mostrar tooltips com o CTRL",
+            name = "Show tooltips with CTRL",
             order = 2,
-            desc = "Mostra as tooltips ao pressionar o CTRL",
+            desc = "Show tooltips when pressing CTRL",
             type = "toggle",
             width = "double",
             set = function(_, val)
@@ -62,9 +62,9 @@ local configTable = {
             end
         },
         data_source = {
-            name = "Fonte de informação",
+            name = "Data Source",
             order = 3,
-            desc = "BIS usado pela guild V I N T A G E",
+            desc = "BIS List used by Guild V I N T A G E",
             type = "select",
             style = "dropdown",
             width = "double",
@@ -98,7 +98,7 @@ local function openSourceSelectDialog()
     frame:AddChild(labelEmpty)
 
     local label = AceGUI:Create("Label")
-    label:SetText("Seleciona a fonte de informação para aparecer a lista de BIS:")
+    label:SetText("Select the data source for the BIS list:")
     label:SetFont("Fonts\\FRIZQT__.TTF", 14, "")
     label:SetRelativeWidth(1)
     frame:AddChild(label)
@@ -189,8 +189,8 @@ function BistooltipAddon:addMapIcon()
                 end,
                 OnTooltipShow = function(tt)
                     tt:AddLine(BistooltipAddon.AddonNameAndVersion)
-                    tt:AddLine("|cffffff00Botão Esquerdo|r para abrir a lista de items BIS")
-                    tt:AddLine("|cffffff00Botão Direito|r para abrir as configurações")
+                    tt:AddLine("|cffffff00Left Button|r to open the BIS items list")
+                    tt:AddLine("|cffffff00Right Button|r to open the settings")
                 end
             })
             if LDataBrokerIcon then

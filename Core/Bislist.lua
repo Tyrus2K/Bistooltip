@@ -144,7 +144,7 @@ local function createSpellFrame(spell_id, size)
 
     local name, _, icon, _, _, _ = GetSpellInfo(spell_id)
     if not name then
-        print("Falha ao encontrar o spell ID:", spell_id)
+        print("Failed to find spell ID:", spell_id)
         return spell_frame
     end
 
@@ -496,8 +496,8 @@ function BistooltipAddon:OpenGithubLink()
 end
 
 StaticPopupDialogs["Github_LINK_DIALOG"] = {
-    text = "Link do Github para o Addon                    (carregar CTRL+C e meter no google)",
-    button2 = "Fechar",
+    text = "---Github link for the Addon---                              (press CTRL+C and paste into Google)",
+    button2 = "Close",
     OnShow = function(self)
         self.editBox:SetText("https://github.com/Tyrus2K/Bistooltip")
         self.editBox:SetFocus()
@@ -778,7 +778,7 @@ function BistooltipAddon:createMainFrame()
     buttonContainer:AddChild(talentsButton)
 
     local noteLabel = AceGUI:Create("Label")
-    noteLabel:SetText("Se te aparecer um ponto de interrogação vermelho em vez de um item/gema/enchant carrega no botão (Reload)")
+    noteLabel:SetText("If a red question mark appears instead of an item/gem/enchant, click the Reload button")
     noteLabel:SetWidth(425)
     noteLabel:SetFont(GameFontNormal:GetFont(), 10)
 

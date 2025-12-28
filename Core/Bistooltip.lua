@@ -93,8 +93,7 @@ local function GetItemSource(itemId)
         for boss, items in pairs(bosses) do
             if table.contains(items, itemId) then
                 local formattedZone = formatInstanceName(zone)
-                source = "|cFFFFFFFFSource:|r |cFF00FF00" ..
-                         formattedZone .. " - " .. boss .. "|r"
+                source = "|cFFFFFFFFDrop:|r |cFF00FF00" .. formattedZone .. " - " .. boss .. "|r"
                 break
             end
         end
@@ -140,10 +139,10 @@ local function OnGameTooltipSetItem(tooltip)
     if Bistooltip_char_equipment and Bistooltip_char_equipment[itemId] ~= nil then
         tooltip:AddLine(" ", 1, 1, 0)
         if Bistooltip_char_equipment[itemId] == 2 then
-            tooltip:AddLine("Tens este item equipado", 1.000, 0.000, 0.000)
+            tooltip:AddLine("You have this item equipped", 1.000, 0.000, 0.000)
             tooltip:AddLine(" ", 1, 1, 0)
         else
-            tooltip:AddLine("Tens este item no inventario / banco", 1.000, 0.000, 0.000)
+            tooltip:AddLine("You have this item in inventory / bank", 1.000, 0.000, 0.000)
             tooltip:AddLine(" ", 1, 1, 0)
         end
     end

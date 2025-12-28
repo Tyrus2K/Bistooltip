@@ -97,7 +97,7 @@ local function GetItemSource(itemId)
         for boss, items in pairs(bosses) do
             if table.contains(items, itemId) then
                 local formattedZone = formatInstanceName(zone)
-                source = "|cFFFFFFFFSource:|r |cFF00FF00[" .. formattedZone .. "] - " .. boss .. "|r"
+                source = "|cFFFFFFFFSource:|r |cFF00FF00" .. formattedZone .. " - " .. boss .. "|r"
                 break
             end
         end
@@ -110,7 +110,7 @@ local function GetItemSource(itemId)
         local Instance, Boss = DataStore_Inventory:GetSource(itemId)
         if Instance and Boss then
             local formattedInstance = formatInstanceName(Instance)
-            source = "|cFFFFFFFFSource:|r |cFF00FF00[" .. formattedInstance .. "] - " .. Boss .. "|r"
+            source = "|cFFFFFFFFSource:|r |cFF00FF00" .. formattedInstance .. " - " .. Boss .. "|r"
         else
             return nil
         end

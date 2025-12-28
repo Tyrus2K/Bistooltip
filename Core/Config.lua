@@ -28,9 +28,9 @@ local configTable = {
     type = "group",
     args = {
         minimap_icon = {
-            name = "BotÃ£o no Minimapa",
+            name = "Botão no Minimapa",
             order = 0,
-            desc = "Mostra/Esconde o botÃ£o no minimapa",
+            desc = "Mostra/Esconde o botão no minimapa",
             type = "toggle",
             set = function(_, val)
                 BistooltipAddon.db.char.minimap_icon = val
@@ -62,7 +62,7 @@ local configTable = {
             end
         },
         data_source = {
-            name = "Fonte de informaÃ§Ã£o",
+            name = "Fonte de informação",
             order = 3,
             desc = "BIS usado pela guild V I N T A G E",
             type = "select",
@@ -98,7 +98,7 @@ local function openSourceSelectDialog()
     frame:AddChild(labelEmpty)
 
     local label = AceGUI:Create("Label")
-    label:SetText("Seleciona a fonte de informaÃ§Ã£o para aparecer a lista de BIS:")
+    label:SetText("Seleciona a fonte de informação para aparecer a lista de BIS:")
     label:SetFont("Fonts\\FRIZQT__.TTF", 14, "")
     label:SetRelativeWidth(1)
     frame:AddChild(label)
@@ -189,8 +189,8 @@ function BistooltipAddon:addMapIcon()
                 end,
                 OnTooltipShow = function(tt)
                     tt:AddLine(BistooltipAddon.AddonNameAndVersion)
-                    tt:AddLine("|cffffff00BotÃ£o Esquerdo|r para abrir a lista de items BIS")
-                    tt:AddLine("|cffffff00BotÃ£o Direito|r para abrir as configuraÃ§Ãµes")
+                    tt:AddLine("|cffffff00Botão Esquerdo|r para abrir a lista de items BIS")
+                    tt:AddLine("|cffffff00Botão Direito|r para abrir as configurações")
                 end
             })
             if LDataBrokerIcon then

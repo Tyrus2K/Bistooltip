@@ -70,7 +70,6 @@ local function createEquipmentWatcher()
         for _, bisID in ipairs(listIDs) do
             local count = GetItemCount(bisID, true)
             if count > 0 then
-                -- Se nÃ£o equipado (valor 2) entÃ£o estÃ¡ no inventario/banco (valor 1)
                 if not collection[bisID] then
                     collection[bisID] = 1
                 end

@@ -3695,7 +3695,7 @@ Bistooltip_wowtbc_bislists["Warrior"]["Fury"]["Class"]
     ["slot_name"] = "Wrist", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 44575 },
         [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 54580, [2] = 50659, [3] = 50670, [4] = 54559, [5] = 53126
+    }, [1] = 54580, [2] = 50670, [3] = 50659, [4] = 54559, [5] = 53126
 }
 
 Bistooltip_wowtbc_bislists["Warrior"]["Fury"]["Class"]

@@ -994,32 +994,35 @@ Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
         [1] = { ["type"] = "item", ["id"] = 44879 },
         [2] = { ["type"] = "item", ["id"] = 41398 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 51286, [2] = 50605, [3] = 50713, [4] = 51866, [5] = 51153
+        [4] = { ["type"] = "item", ["id"] = 40117 }
+    }, [1] = 51286, [2] = 51153, [3] = 50115, [4] = 50605, [5] = 51866
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
 [2] = {
     ["slot_name"] = "Neck", ["enhs"] = {
         [1] = { ["type"] = "none", ["id"] = 0 },
-        [2] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 50633, [2] = 51890, [3] = 51822, [4] = 50452, [5] = 50421
+        [2] = { ["type"] = "item", ["id"] = 40117 }
+    }, [1] = 50633, [2] = 50421, [3] = 51822, [4] = 51890, [5] = 50452
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
 [3] = {
     ["slot_name"] = "Shoulder", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 44871 },
-        [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 51288, [2] = 54566, [3] = 51864, [4] = 50673, [5] = 51830
+        [2] = { ["type"] = "item", ["id"] = 40112 },
+        [2] = { ["type"] = "none", ["id"] = 0 },
+        [1] = { ["type"] = "item", ["id"] = 40150 }
+    }, [1] = 50673, [2] = 51288, [3] = 51151, [4] = 50117, [5] = 54566
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
 [4] = {
     ["slot_name"] = "Back", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 60663 },
-        [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 47545, [2] = 50470, [3] = 50653, [4] = 48673, [5] = 45461
+        [1] = { ["type"] = "spell", ["id"] = 55002 },
+        [2] = { ["type"] = "item", ["id"] = 40117 },
+        [3] = { ["type"] = "spell", ["id"] = 60663 }
+    }, [1] = 50653, [2] = 49998, [3] = 47545, [4] = 50470, [5] = 51933
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
@@ -1028,8 +1031,8 @@ Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
         [1] = { ["type"] = "spell", ["id"] = 60692 },
         [2] = { ["type"] = "item", ["id"] = 40117 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 49110 }
-    }, [1] = 51289, [2] = 50689, [3] = 50038, [4] = 51903, [5] = 51923
+        [4] = { ["type"] = "item", ["id"] = 40117 }
+    }, [1] = 51289, [2] = 51150, [3] = 50118, [4] = 50689, [5] = 50970
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
@@ -1037,89 +1040,82 @@ Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
     ["slot_name"] = "Wrist", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 44575 },
         [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 54580, [2] = 50655, [3] = 50670, [4] = 51914, [5] = 47155
+    }, [1] = 50655, [2] = 51914, [3] = 54580, [4] = 50670, [5] = 50000
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
 [7] = {
     ["slot_name"] = "Hands", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 44529 },
-        [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 51285, [2] = 51926, [3] = 50675, [4] = 51154, [5] = 50619
+        [1] = { ["type"] = "spell", ["id"] = 54999 },
+        [2] = { ["type"] = "item", ["id"] = 40117 },
+        [3] = { ["type"] = "spell", ["id"] = 44529 }
+    }, [1] = 51285, [2] = 51154, [3] = 50114, [4] = 50675, [5] = 51926
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
 [8] = {
     ["slot_name"] = "Waist", ["enhs"] = {
-        [1] = { ["type"] = "none", ["id"] = 0 },
-        [2] = { ["type"] = "item", ["id"] = 40125 },
+        [1] = { ["type"] = "item", ["id"] = 41611 },
+        [2] = { ["type"] = "item", ["id"] = 40148 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40117 },
         [5] = { ["type"] = "none", ["id"] = 0 },
         [6] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 50688, [2] = 47153, [3] = 50707, [4] = 51935, [5] = 51853
+    }, [1] = 50688, [2] = 50707, [3] = 50413, [4] = 51853, [5] = 50995
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
 [9] = {
     ["slot_name"] = "Legs", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 38374 },
-        [2] = { ["type"] = "item", ["id"] = 40117 },
+        [2] = { ["type"] = "item", ["id"] = 49110 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40117 },
-        [5] = { ["type"] = "none", ["id"] = 0 },
-        [6] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 50645, [2] = 50697, [3] = 51829, [4] = 49988, [5] = 49901
+        [4] = { ["type"] = "item", ["id"] = 40117 }
+    }, [1] = 51287, [2] = 51152, [3] = 50116, [4] = 50645, [5] = 49901
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
 [10] = {
     ["slot_name"] = "Feet", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 44589 },
-        [2] = { ["type"] = "item", ["id"] = 40117 },
-        [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40125 }
-    }, [1] = 54577, [2] = 50711, [3] = 47077, [4] = 47109, [5] = 50607
+        [1] = { ["type"] = "spell", ["id"] = 55016 },
+        [2] = { ["type"] = "item", ["id"] = 40148 },
+        [3] = { ["type"] = "spell", ["id"] = 44589 },
+        [4] = { ["type"] = "item", ["id"] = 40148 }
+    }, [1] = 54577, [2] = 50607, [3] = 50711, [4] = 49897, [5] = 51891
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
 [11] = {
     ["slot_name"] = "Finger", ["enhs"] = {
-        [1] = { ["type"] = "none", ["id"] = 0 },
-        [2] = { ["type"] = "item", ["id"] = 40125 }
-    }, [1] = 54576, [2] = 50402, [3] = 50604, [4] = 50618, [5] = 53133
+        [1] = { ["type"] = "item", ["id"] = 40117 },
+        [2] = { ["type"] = "item", ["id"] = 40148 }
+    }, [1] = 54576, [2] = 50618, [3] = 50402, [4] = 50186, [5] = 51900
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
 [12] = {
     ["slot_name"] = "Trinket", ["enhs"] = {
-    }, [1] = 54590, [2] = 50363, [3] = 54569, [4] = 50362, [5] = 50343
+    }, [1] = 54590, [2] = 50343, [3] = 50363, [4] = 47464, [5] = 47214
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
 [13] = {
     ["slot_name"] = "Weapon", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 60691 },
-        [2] = { ["type"] = "item", ["id"] = 40117 },
+        [2] = { ["type"] = "item", ["id"] = 42153 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40117 },
+        [4] = { ["type"] = "item", ["id"] = 42153 },
         [5] = { ["type"] = "none", ["id"] = 0 },
-        [6] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 50735, [2] = 50672, [3] = 51857, [4] = 51945, [5] = 50425
+        [6] = { ["type"] = "item", ["id"] = 42153 }
+    }, [1] = 50695, [2] = 50735, [3] = 51945, [4] = 51857, [5] = 50425
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
 [14] = {
-    ["slot_name"] = "Off hand", ["enhs"] = {
-    }, [1] = 50672, [2] = 50710, [3] = 50621, [4] = 50654, [5] = 50737
-}
-
-Bistooltip_wowtbc_bislists["Hunter"]["Beast mastery"]["Class"]
-[15] = {
     ["slot_name"] = "Ranged", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 41167 },
         [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 50733, [2] = 50638, [3] = 51940, [4] = 49981, [5] = 51927
+    }, [1] = 50733, [2] = 51940, [3] = 50638, [4] = 49981, [5] = 51927
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"] = {};
@@ -1130,70 +1126,72 @@ Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
         [1] = { ["type"] = "item", ["id"] = 44879 },
         [2] = { ["type"] = "item", ["id"] = 41398 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 51286, [2] = 50605, [3] = 50713, [4] = 51866, [5] = 51153
+        [4] = { ["type"] = "item", ["id"] = 40117 }
+    }, [1] = 51286, [2] = 51153, [3] = 50115, [4] = 50605, [5] = 51866
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
 [2] = {
     ["slot_name"] = "Neck", ["enhs"] = {
         [1] = { ["type"] = "none", ["id"] = 0 },
-        [2] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 50633, [2] = 51890, [3] = 51822, [4] = 50452, [5] = 50421
+        [2] = { ["type"] = "item", ["id"] = 40117 }
+    }, [1] = 50633, [2] = 50421, [3] = 51822, [4] = 51890, [5] = 50452
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
 [3] = {
     ["slot_name"] = "Shoulder", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 44871 },
-        [2] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 51288, [2] = 54566, [3] = 51864, [4] = 50673, [5] = 51830
+        [2] = { ["type"] = "item", ["id"] = 40117 }
+    }, [1] = 51288, [2] = 51151, [3] = 50117, [4] = 54566, [5] = 50673
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
 [4] = {
     ["slot_name"] = "Back", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 60663 },
-        [2] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 47545, [2] = 50470, [3] = 50653, [4] = 48673, [5] = 45461
+        [1] = { ["type"] = "spell", ["id"] = 55002 },
+        [2] = { ["type"] = "item", ["id"] = 40117 },
+        [3] = { ["type"] = "spell", ["id"] = 60663 }
+    }, [1] = 47545, [2] = 50470, [3] = 50653, [4] = 49998, [5] = 51933
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
 [5] = {
     ["slot_name"] = "Chest", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 60692 },
-        [2] = { ["type"] = "item", ["id"] = 40117 },
+        [2] = { ["type"] = "item", ["id"] = 40112 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 51289, [2] = 50689, [3] = 50038, [4] = 51903, [5] = 51923
+        [4] = { ["type"] = "item", ["id"] = 40112 }
+    }, [1] = 51289, [2] = 51150, [3] = 50118, [4] = 50689, [5] = 50970
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
 [6] = {
     ["slot_name"] = "Wrist", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 44575 },
-        [2] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 54580, [2] = 50655, [3] = 50670, [4] = 51914, [5] = 47155
+        [2] = { ["type"] = "item", ["id"] = 40117 }
+    }, [1] = 54580, [2] = 50655, [3] = 50670, [4] = 50000, [5] = 51914
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
 [7] = {
     ["slot_name"] = "Hands", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 44529 },
-        [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 51285, [2] = 51926, [3] = 50675, [4] = 51154, [5] = 50619
+        [1] = { ["type"] = "spell", ["id"] = 54999 },
+        [2] = { ["type"] = "item", ["id"] = 40117 },
+        [3] = { ["type"] = "spell", ["id"] = 44529 }
+    }, [1] = 51285, [2] = 51154, [3] = 50114, [4] = 50675, [5] = 51926
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
 [8] = {
     ["slot_name"] = "Waist", ["enhs"] = {
-        [1] = { ["type"] = "none", ["id"] = 0 },
+        [1] = { ["type"] = "item", ["id"] = 41611 },
         [2] = { ["type"] = "item", ["id"] = 40148 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40117 },
         [5] = { ["type"] = "none", ["id"] = 0 },
         [6] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 50688, [2] = 47153, [3] = 50707, [4] = 51935, [5] = 51853
+    }, [1] = 50688, [2] = 50707, [3] = 50413, [4] = 51853, [5] = 50995
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
@@ -1204,58 +1202,52 @@ Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40117 },
         [5] = { ["type"] = "none", ["id"] = 0 },
-        [6] = { ["type"] = "item", ["id"] = 40148 }
-    }, [1] = 50645, [2] = 50697, [3] = 51829, [4] = 49988, [5] = 49901
+        [6] = { ["type"] = "item", ["id"] = 40147 }
+    }, [1] = 50645, [2] = 49901, [3] = 49988, [4] = 51829, [5] = 51287
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
 [10] = {
     ["slot_name"] = "Feet", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 44589 },
-        [2] = { ["type"] = "item", ["id"] = 40117 },
-        [3] = { ["type"] = "none", ["id"] = 0 },
+        [1] = { ["type"] = "spell", ["id"] = 55016 },
+        [2] = { ["type"] = "item", ["id"] = 40148 },
+        [3] = { ["type"] = "spell", ["id"] = 44589 },
         [4] = { ["type"] = "item", ["id"] = 40148 }
-    }, [1] = 54577, [2] = 50711, [3] = 47077, [4] = 47109, [5] = 50607
+    }, [1] = 54577, [2] = 50607, [3] = 50711, [4] = 49897, [5] = 51891
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
 [11] = {
     ["slot_name"] = "Finger", ["enhs"] = {
-        [1] = { ["type"] = "none", ["id"] = 0 },
+        [1] = { ["type"] = "item", ["id"] = 40117 },
         [2] = { ["type"] = "item", ["id"] = 40148 }
-    }, [1] = 54576, [2] = 50618, [3] = 50402, [4] = 50604, [5] = 53133
+    }, [1] = 54576, [2] = 50618, [3] = 50402, [4] = 50186, [5] = 51900
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
 [12] = {
     ["slot_name"] = "Trinket", ["enhs"] = {
-    }, [1] = 54590, [2] = 50363, [3] = 54569, [4] = 50362, [5] = 50343
+    }, [1] = 50363, [2] = 54590, [3] = 50343, [4] = 47464, [5] = 47214
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
 [13] = {
     ["slot_name"] = "Weapon", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 60691 },
-        [2] = { ["type"] = "item", ["id"] = 40117 },
+        [2] = { ["type"] = "item", ["id"] = 42153 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40117 },
+        [4] = { ["type"] = "item", ["id"] = 42153 },
         [5] = { ["type"] = "none", ["id"] = 0 },
-        [6] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 50735, [2] = 50672, [3] = 51857, [4] = 51945, [5] = 50425
+        [6] = { ["type"] = "item", ["id"] = 42153 }
+    }, [1] = 50735, [2] = 51945, [3] = 51857, [4] = 50425, [5] = 50695
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
 [14] = {
-    ["slot_name"] = "Off hand", ["enhs"] = {
-    }, [1] = 50672, [2] = 50710, [3] = 50621, [4] = 50654, [5] = 50737
-}
-
-Bistooltip_wowtbc_bislists["Hunter"]["Marksmanship"]["Class"]
-[15] = {
     ["slot_name"] = "Ranged", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 41167 },
         [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 50733, [2] = 50638, [3] = 51940, [4] = 49981, [5] = 51927
+    }, [1] = 50733, [2] = 51940, [3] = 50638, [4] = 49981, [5] = 51927
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"] = {};
@@ -1267,7 +1259,7 @@ Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
         [2] = { ["type"] = "item", ["id"] = 41398 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 51286, [2] = 50605, [3] = 50713, [4] = 49952, [5] = 50073
+    }, [1] = 51286, [2] = 51153, [3] = 50115, [4] = 50605, [5] = 51866
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
@@ -1275,7 +1267,7 @@ Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
     ["slot_name"] = "Neck", ["enhs"] = {
         [1] = { ["type"] = "none", ["id"] = 0 },
         [2] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 50633, [2] = 51890, [3] = 50452, [4] = 51822, [5] = 50421
+    }, [1] = 50633, [2] = 50421, [3] = 51822, [4] = 51890, [5] = 50452
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
@@ -1283,15 +1275,16 @@ Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
     ["slot_name"] = "Shoulder", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 44871 },
         [2] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 51288, [2] = 51864, [3] = 50673, [4] = 48260, [5] = 54566
+    }, [1] = 51288, [2] = 51151, [3] = 50117, [4] = 54566, [5] = 50673
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
 [4] = {
     ["slot_name"] = "Back", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 60663 },
-        [2] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 47545, [2] = 50653, [3] = 45461, [4] = 50470, [5] = 48673
+        [1] = { ["type"] = "spell", ["id"] = 55002 },
+        [2] = { ["type"] = "item", ["id"] = 40112 },
+        [3] = { ["type"] = "spell", ["id"] = 60663 }
+    }, [1] = 47545, [2] = 50470, [3] = 50653, [4] = 49998, [5] = 51933
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
@@ -1301,7 +1294,7 @@ Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
         [2] = { ["type"] = "item", ["id"] = 40112 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 51289, [2] = 50689, [3] = 50656, [4] = 50038, [5] = 51903
+    }, [1] = 51289, [2] = 51150, [3] = 50118, [4] = 50689, [5] = 50970
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
@@ -1309,27 +1302,28 @@ Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
     ["slot_name"] = "Wrist", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 44575 },
         [2] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 50655, [2] = 51914, [3] = 50670, [4] = 54580, [5] = 47151
+    }, [1] = 54580, [2] = 50655, [3] = 50670, [4] = 50000, [5] = 51914
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
 [7] = {
     ["slot_name"] = "Hands", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 44529 },
-        [2] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 51285, [2] = 51926, [3] = 51154, [4] = 50675, [5] = 50619
+        [1] = { ["type"] = "spell", ["id"] = 54999 },
+        [2] = { ["type"] = "item", ["id"] = 40112 },
+        [3] = { ["type"] = "spell", ["id"] = 44529 }
+    }, [1] = 51285, [2] = 51154, [3] = 50114, [4] = 50675, [5] = 51926
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
 [8] = {
     ["slot_name"] = "Waist", ["enhs"] = {
-        [1] = { ["type"] = "none", ["id"] = 0 },
+        [1] = { ["type"] = "item", ["id"] = 41611 },
         [2] = { ["type"] = "item", ["id"] = 40148 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40112 },
         [5] = { ["type"] = "none", ["id"] = 0 },
         [6] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 50688, [2] = 47153, [3] = 50993, [4] = 51935, [5] = 51925
+    }, [1] = 50688, [2] = 50707, [3] = 50413, [4] = 51853, [5] = 50995
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
@@ -1340,58 +1334,52 @@ Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40112 },
         [5] = { ["type"] = "none", ["id"] = 0 },
-        [6] = { ["type"] = "item", ["id"] = 40148 }
-    }, [1] = 50645, [2] = 50697, [3] = 51829, [4] = 51287, [5] = 49988
+        [6] = { ["type"] = "item", ["id"] = 40150 }
+    }, [1] = 50645, [2] = 49901, [3] = 49988, [4] = 51829, [5] = 51287
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
 [10] = {
     ["slot_name"] = "Feet", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 44589 },
-        [2] = { ["type"] = "item", ["id"] = 40112 },
-        [3] = { ["type"] = "none", ["id"] = 0 },
+        [1] = { ["type"] = "spell", ["id"] = 55016 },
+        [2] = { ["type"] = "item", ["id"] = 40148 },
+        [3] = { ["type"] = "spell", ["id"] = 44589 },
         [4] = { ["type"] = "item", ["id"] = 40148 }
-    }, [1] = 54577, [2] = 50711, [3] = 47077, [4] = 47109, [5] = 50071
+    }, [1] = 54577, [2] = 50607, [3] = 50711, [4] = 49897, [5] = 51891
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
 [11] = {
     ["slot_name"] = "Finger", ["enhs"] = {
-        [1] = { ["type"] = "none", ["id"] = 0 },
+        [1] = { ["type"] = "item", ["id"] = 40112 },
         [2] = { ["type"] = "item", ["id"] = 40148 }
-    }, [1] = 54576, [2] = 50618, [3] = 50402, [4] = 50604, [5] = 49949
+    }, [1] = 54576, [2] = 50618, [3] = 50402, [4] = 50186, [5] = 51900
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
 [12] = {
     ["slot_name"] = "Trinket", ["enhs"] = {
-    }, [1] = 54590, [2] = 50363, [3] = 54569, [4] = 50362, [5] = 47131
+    }, [1] = 50363, [2] = 54590, [3] = 50343, [4] = 47464, [5] = 47214
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
 [13] = {
     ["slot_name"] = "Weapon", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 60691 },
-        [2] = { ["type"] = "item", ["id"] = 40112 },
+        [2] = { ["type"] = "item", ["id"] = 42143 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40112 },
+        [4] = { ["type"] = "item", ["id"] = 42143 },
         [5] = { ["type"] = "none", ["id"] = 0 },
-        [6] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 50735, [2] = 50672, [3] = 50998, [4] = 50695, [5] = 50727
+        [6] = { ["type"] = "item", ["id"] = 42143 }
+    }, [1] = 50735, [2] = 51945, [3] = 51857, [4] = 50425, [5] = 50695
 }
 
 Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
 [14] = {
-    ["slot_name"] = "Off hand", ["enhs"] = {
-    }, [1] = 50672, [2] = 50710, [3] = 50412, [4] = 50184, [5] = 50737
-}
-
-Bistooltip_wowtbc_bislists["Hunter"]["Survival"]["Class"]
-[15] = {
     ["slot_name"] = "Ranged", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 41167 },
         [2] = { ["type"] = "item", ["id"] = 40112 }
-    }, [1] = 50733, [2] = 50638, [3] = 51940, [4] = 49981, [5] = 51927
+    }, [1] = 50733, [2] = 51940, [3] = 50638, [4] = 49981, [5] = 51927
 }
 
 Bistooltip_wowtbc_bislists["Mage"]["Arcane"] = {};

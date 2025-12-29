@@ -6,7 +6,7 @@
 
 ## Screenshots
 
-<img width="760" height="933" alt="Bistooltip" src="https://github.com/user-attachments/assets/b13a5ca9-664b-48bd-a099-465a7856131b" />
+<img width="753" height="907" alt="Bistooltip" src="https://github.com/user-attachments/assets/f8c58db8-f095-4da9-a07a-0fec3f0c85c4" />
 
 ## Dependencies
 
@@ -16,4 +16,5 @@
 
 1. Download Bistooltip-main.
 2. Rename the ZIP file from Bistooltip-main to Bistooltip.
+
 3. Place the Addon in the "Addons" folder.

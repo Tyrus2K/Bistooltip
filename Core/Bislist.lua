@@ -82,6 +82,7 @@ local function createItemFrame(item_id, size, ItemEquipped, ItemInInventory, BoE
         item_id = aliItemID
     end
 
+    GameTooltip:SetHyperlink("item:" .. item_id .. ":0:0:0:0:0:0:0")
     local itemName, itemLink, _, _, _, _, _, _, _, itemIcon, _, _, _, _ = GetItemInfo(item_id)
 
     if not itemName then

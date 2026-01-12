@@ -80,7 +80,7 @@ local configTable = {
     }
 }
 
-local function openSourceSelectDialog()
+function openSourceSelectDialog()
     local frame = AceGUI:Create("Window")
     frame:SetWidth(300)
     frame:SetHeight(150)

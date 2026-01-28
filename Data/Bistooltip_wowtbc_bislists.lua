@@ -2193,7 +2193,7 @@ Bistooltip_wowtbc_bislists["Priest"]["Discipline"]["Class"]
     ["slot_name"] = "Neck", ["enhs"] = {
         [1] = { ["type"] = "none", ["id"] = 0 },
         [2] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50700, [2] = 50724, [3] = 51894, [4] = 51871, [5] = 50061
+    }, [1] = 50724, [2] = 50700, [3] = 51894, [4] = 51871, [5] = 50061
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Discipline"]["Class"]
@@ -2251,13 +2251,13 @@ Bistooltip_wowtbc_bislists["Priest"]["Discipline"]["Class"]
         [4] = { ["type"] = "item", ["id"] = 40113 },
         [5] = { ["type"] = "none", ["id"] = 0 },
         [6] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50702, [2] = 50613, [3] = 54562, [4] = 51862, [5] = 50063
+    }, [1] = 50613, [2] = 50702, [3] = 54562, [4] = 51862, [5] = 50063
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Discipline"]["Class"]
 [9] = {
     ["slot_name"] = "Legs", ["enhs"] = {
-        [1] = { ["type"] = "item", ["id"] = 41602 },
+        [1] = { ["type"] = "item", ["id"] = 41604 },
         [2] = { ["type"] = "item", ["id"] = 40113 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40113 }
@@ -2279,7 +2279,7 @@ Bistooltip_wowtbc_bislists["Priest"]["Discipline"]["Class"]
     ["slot_name"] = "Finger", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 40113 },
         [2] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50720, [2] = 54585, [3] = 54585, [4] = 50400, [5] = 50644
+    }, [1] = 50720, [2] = 54585, [3] = 50664, [4] = 50400, [5] = 50644
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Discipline"]["Class"]
@@ -2318,7 +2318,7 @@ Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
         [1] = { ["type"] = "item", ["id"] = 44877 },
         [2] = { ["type"] = "item", ["id"] = 41401 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40134 }
+        [4] = { ["type"] = "item", ["id"] = 40174 }
     }, [1] = 51261, [2] = 51178, [3] = 50765, [4] = 50661, [5] = 50006
 }
 
@@ -2326,35 +2326,36 @@ Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
 [2] = {
     ["slot_name"] = "Neck", ["enhs"] = {
         [1] = { ["type"] = "none", ["id"] = 0 },
-        [2] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50700, [2] = 50724, [3] = 51894, [4] = 51871, [5] = 50061
+        [2] = { ["type"] = "item", ["id"] = 40174 }
+    }, [1] = 50609, [2] = 50724, [3] = 50700, [4] = 51894, [5] = 51871
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
 [3] = {
     ["slot_name"] = "Shoulder", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 44874 },
-        [2] = { ["type"] = "item", ["id"] = 40113 }
+        [2] = { ["type"] = "item", ["id"] = 40128 }
     }, [1] = 51264, [2] = 51175, [3] = 50767, [4] = 50449, [5] = 51883
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
 [4] = {
     ["slot_name"] = "Back", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 63765 },
-        [2] = { ["type"] = "item", ["id"] = 40113 },
-        [3] = { ["type"] = "spell", ["id"] = 47898 }
-    }, [1] = 54583, [2] = 50628, [3] = 47551, [4] = 50668, [5] = 54556
+        [1] = { ["type"] = "spell", ["id"] = 47898 },
+        [2] = { ["type"] = "item", ["id"] = 40113 }
+    }, [1] = 54583, [2] = 50628, [3] = 54556, [4] = 47551, [5] = 50668
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
 [5] = {
     ["slot_name"] = "Chest", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 60692 },
-        [2] = { ["type"] = "item", ["id"] = 40113 },
+        [2] = { ["type"] = "item", ["id"] = 40174 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40151 }
-    }, [1] = 51263, [2] = 51176, [3] = 50768, [4] = 50629, [5] = 50975
+        [4] = { ["type"] = "item", ["id"] = 40113 },
+        [5] = { ["type"] = "none", ["id"] = 0 },
+        [6] = { ["type"] = "item", ["id"] = 40128 }
+    }, [1] = 50717, [2] = 51851, [3] = 50974, [4] = 51263, [5] = 51176
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
@@ -2369,32 +2370,31 @@ Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
 Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
 [7] = {
     ["slot_name"] = "Hands", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 44592 },
-        [2] = { ["type"] = "item", ["id"] = 40113 },
-        [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50722, [2] = 51260, [3] = 50984, [4] = 51179, [5] = 50766
+        [1] = { ["type"] = "spell", ["id"] = 54999 },
+        [2] = { ["type"] = "item", ["id"] = 40128 },
+        [3] = { ["type"] = "spell", ["id"] = 44592 }
+    }, [1] = 51260, [2] = 51179, [3] = 50766, [4] = 50722, [5] = 50984
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
 [8] = {
     ["slot_name"] = "Waist", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 41611 },
-        [2] = { ["type"] = "item", ["id"] = 40113 },
+        [2] = { ["type"] = "item", ["id"] = 40174 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40113 },
         [5] = { ["type"] = "none", ["id"] = 0 },
-        [6] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50702, [2] = 50613, [3] = 54562, [4] = 51862, [5] = 50063
+        [6] = { ["type"] = "item", ["id"] = 40128 }
+    }, [1] = 50613, [2] = 50702, [3] = 54562, [4] = 51862, [5] = 50702
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
 [9] = {
     ["slot_name"] = "Legs", ["enhs"] = {
-        [1] = { ["type"] = "item", ["id"] = 41602 },
-        [2] = { ["type"] = "item", ["id"] = 40113 },
+        [1] = { ["type"] = "item", ["id"] = 41604 },
+        [2] = { ["type"] = "item", ["id"] = 40174 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40113 }
+        [4] = { ["type"] = "item", ["id"] = 40128 }
     }, [1] = 51262, [2] = 51177, [3] = 50769, [4] = 51823, [5] = 49892
 }
 
@@ -2402,18 +2402,18 @@ Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
 [10] = {
     ["slot_name"] = "Feet", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 55016 },
-        [2] = { ["type"] = "item", ["id"] = 40113 },
+        [2] = { ["type"] = "item", ["id"] = 40128 },
         [3] = { ["type"] = "spell", ["id"] = 47901 },
-        [4] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50699, [2] = 51850, [3] = 50062, [4] = 49893, [5] = 51899
+        [4] = { ["type"] = "item", ["id"] = 40128 }
+    }, [1] = 50699, [2] = 51850, [3] = 49893, [4] = 50062, [5] = 51899
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
 [11] = {
     ["slot_name"] = "Finger", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 40113 },
-        [2] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50720, [2] = 54585, [3] = 54585, [4] = 50400, [5] = 50644
+        [2] = { ["type"] = "item", ["id"] = 40128 }
+    }, [1] = 54585, [2] = 50636, [3] = 50610, [4] = 50664, [5] = 50400
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
@@ -2427,21 +2427,21 @@ Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
     ["slot_name"] = "Weapon", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 60714 },
         [2] = { ["type"] = "none", ["id"] = 0 }
-    }, [1] = 46017, [2] = 50734, [3] = 50685, [4] = 50608, [5] = 51944
+    }, [1] = 46017, [2] = 50734, [3] = 50685, [4] = 50608, [5] = 51939
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
 [14] = {
     ["slot_name"] = "Off hand", ["enhs"] = {
-    }, [1] = 50719, [2] = 51922, [3] = 50635, [4] = 47470, [5] = 47437
+    }, [1] = 50635, [2] = 50719, [3] = 51922, [4] = 47470, [5] = 47437
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Holy"]["Class"]
 [15] = {
     ["slot_name"] = "Ranged", ["enhs"] = {
         [1] = { ["type"] = "none", ["id"] = 0 },
-        [2] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50631, [2] = 50684, [3] = 51838, [4] = 50472, [5] = 50033
+        [2] = { ["type"] = "item", ["id"] = 40128 }
+    }, [1] = 50684, [2] = 50631, [3] = 51838, [4] = 51852, [5] = 50472
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"] = {};
@@ -2453,7 +2453,7 @@ Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
         [2] = { ["type"] = "item", ["id"] = 41285 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40133 }
-    }, [1] = 51255, [2] = 48085, [3] = 47693, [4] = 51837, [5] = 51184
+    }, [1] = 51255, [2] = 51184, [3] = 50392, [4] = 50006, [5] = 51837
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
@@ -2461,7 +2461,7 @@ Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
     ["slot_name"] = "Neck", ["enhs"] = {
         [1] = { ["type"] = "none", ["id"] = 0 },
         [2] = { ["type"] = "item", ["id"] = 40155 }
-    }, [1] = 50658, [2] = 50005, [3] = 51863, [4] = 45133, [5] = 50724
+    }, [1] = 50724, [2] = 50658, [3] = 50609, [4] = 51894, [5] = 50182
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
@@ -2469,15 +2469,16 @@ Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
     ["slot_name"] = "Shoulder", ["enhs"] = {
         [1] = { ["type"] = "item", ["id"] = 44874 },
         [2] = { ["type"] = "item", ["id"] = 40155 }
-    }, [1] = 51257, [2] = 50643, [3] = 49991, [4] = 51859, [5] = 47713
+    }, [1] = 51257, [2] = 51182, [3] = 50396, [4] = 50643, [5] = 51859
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
 [4] = {
     ["slot_name"] = "Back", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 47898 },
-        [2] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 54583, [2] = 51826, [3] = 47095, [4] = 50628, [5] = 47552
+        [1] = { ["type"] = "spell", ["id"] = 55642 },
+        [2] = { ["type"] = "item", ["id"] = 40113 },
+        [3] = { ["type"] = "spell", ["id"] = 47898 }
+    }, [1] = 54583, [2] = 50628, [3] = 47551, [4] = 53489, [5] = 50668
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
@@ -2487,35 +2488,36 @@ Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
         [2] = { ["type"] = "item", ["id"] = 40113 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40155 }
-    }, [1] = 51259, [2] = 50629, [3] = 50418, [4] = 47129, [5] = 51813
+    }, [1] = 51259, [2] = 51180, [3] = 50394, [4] = 50717, [5] = 51813
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
 [6] = {
     ["slot_name"] = "Wrist", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 60767 },
-        [2] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 54582, [2] = 50651, [3] = 49994, [4] = 51872, [5] = 47143
+        [2] = { ["type"] = "item", ["id"] = 40155 }
+    }, [1] = 54582, [2] = 50651, [3] = 53486, [4] = 51872, [5] = 49994
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
 [7] = {
     ["slot_name"] = "Hands", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 44592 },
-        [2] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 51256, [2] = 50663, [3] = 51921, [4] = 50011, [5] = 51183
+        [1] = { ["type"] = "spell", ["id"] = 54999 },
+        [2] = { ["type"] = "item", ["id"] = 40113 },
+        [3] = { ["type"] = "spell", ["id"] = 44592 }
+    }, [1] = 51256, [2] = 51183, [3] = 50391, [4] = 50722, [5] = 50663
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
 [8] = {
     ["slot_name"] = "Waist", ["enhs"] = {
-        [1] = { ["type"] = "none", ["id"] = 0 },
+        [1] = { ["type"] = "item", ["id"] = 41611 },
         [2] = { ["type"] = "item", ["id"] = 40133 },
         [3] = { ["type"] = "none", ["id"] = 0 },
         [4] = { ["type"] = "item", ["id"] = 40113 },
         [5] = { ["type"] = "none", ["id"] = 0 },
         [6] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50613, [2] = 54562, [3] = 50996, [4] = 47084, [5] = 47921
+    }, [1] = 50613, [2] = 51930, [3] = 50702, [4] = 54562, [5] = 51862
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
@@ -2524,34 +2526,34 @@ Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
         [1] = { ["type"] = "item", ["id"] = 41602 },
         [2] = { ["type"] = "item", ["id"] = 40113 },
         [3] = { ["type"] = "none", ["id"] = 0 },
-        [4] = { ["type"] = "item", ["id"] = 40113 },
+        [4] = { ["type"] = "item", ["id"] = 40133 },
         [5] = { ["type"] = "none", ["id"] = 0 },
-        [6] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50694, [2] = 51258, [3] = 50056, [4] = 48084, [5] = 51181
+        [6] = { ["type"] = "item", ["id"] = 40155 }
+    }, [1] = 50694, [2] = 51882, [3] = 49891, [4] = 51258, [5] = 51823
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
 [10] = {
     ["slot_name"] = "Feet", ["enhs"] = {
-        [1] = { ["type"] = "spell", ["id"] = 47901 },
+        [1] = { ["type"] = "spell", ["id"] = 55016 },
         [2] = { ["type"] = "item", ["id"] = 40133 },
-        [3] = { ["type"] = "none", ["id"] = 0 },
+        [3] = { ["type"] = "spell", ["id"] = 60623 },
         [4] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50699, [2] = 49890, [3] = 47205, [4] = 51899, [5] = 50062
+    }, [1] = 50699, [2] = 51920, [3] = 49893, [4] = 51850, [5] = 51899
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
 [11] = {
     ["slot_name"] = "Finger", ["enhs"] = {
-        [1] = { ["type"] = "none", ["id"] = 0 },
+        [1] = { ["type"] = "item", ["id"] = 40113 },
         [2] = { ["type"] = "item", ["id"] = 40155 }
-    }, [1] = 50398, [2] = 50664, [3] = 50714, [4] = 50614, [5] = 54563
+    }, [1] = 50398, [2] = 50664, [3] = 50636, [4] = 50714, [5] = 50644
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
 [12] = {
     ["slot_name"] = "Trinket", ["enhs"] = {
-    }, [1] = 50348, [2] = 54588, [3] = 50365, [4] = 50353, [5] = 54572
+    }, [1] = 50365, [2] = 54588, [3] = 50348, [4] = 45518, [5] = 50345
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
@@ -2559,13 +2561,13 @@ Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
     ["slot_name"] = "Weapon", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 60714 },
         [2] = { ["type"] = "item", ["id"] = 40113 }
-    }, [1] = 50734, [2] = 50731, [3] = 51939, [4] = 50608, [5] = 50428
+    }, [1] = 50734, [2] = 51939, [3] = 50608, [4] = 50428, [5] = 51944
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
 [14] = {
     ["slot_name"] = "Off hand", ["enhs"] = {
-    }, [1] = 50719, [2] = 51922, [3] = 47064, [4] = 45617, [5] = 50173
+    }, [1] = 50719, [2] = 50635, [3] = 51922, [4] = 50173, [5] = 50423
 }
 
 Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
@@ -2573,7 +2575,7 @@ Bistooltip_wowtbc_bislists["Priest"]["Shadow"]["Class"]
     ["slot_name"] = "Ranged", ["enhs"] = {
         [1] = { ["type"] = "none", ["id"] = 0 },
         [2] = { ["type"] = "item", ["id"] = 40155 }
-    }, [1] = 50684, [2] = 51852, [3] = 45294, [4] = 50631, [5] = 50033
+    }, [1] = 50684, [2] = 50631, [3] = 51852, [4] = 51838, [5] = 50472
 }
 
 Bistooltip_wowtbc_bislists["Rogue"]["Assassination"] = {};

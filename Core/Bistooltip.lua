@@ -17,13 +17,26 @@ function searchIDInBislistsClassSpec(structure, id, class, spec)
 
         for _, itemData in pairs(items) do
             if type(itemData) == "table" and itemData[1] then
+
+                local isDoubleBisSlot = false
+                if itemData.slot_name then
+                    local sName = string.lower(itemData.slot_name)
+                    if string.find(sName, "trinket") or string.find(sName, "finger") or string.find(sName, "ring") then
+                        isDoubleBisSlot = true
+                    end
+                end
+
                 for i, itemId in ipairs(itemData) do
                     if i ~= "slot_name" and i ~= "enhs" and itemId == id then
                         local phaseLabel
                         if i == 1 then
                             phaseLabel = phase .. " BIS"
                         elseif i == 2 then
-                            phaseLabel = phase .. " Pre-BIS"
+                            if isDoubleBisSlot then
+                                phaseLabel = phase .. " BIS"
+                            else
+                                phaseLabel = phase .. " Pre-BIS"
+                            end
                         else
                             phaseLabel = phase .. " Top " .. i
                         end

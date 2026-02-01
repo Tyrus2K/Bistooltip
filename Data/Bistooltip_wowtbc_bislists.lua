@@ -744,7 +744,7 @@ Bistooltip_wowtbc_bislists["Druid"]["Feral dps"]["Class"]
     ["slot_name"] = "Neck", ["enhs"] = {
         [1] = { ["type"] = "none", ["id"] = 0 },
         [2] = { ["type"] = "item", ["id"] = 40117 }
-    }, [1] = 50633, [2] = 54581, [3] = 50728, [4] = 50421, [5] = 53132
+    }, [1] = 50633, [2] = 51822, [3] = 50421, [4] = 51890, [5] = 54581
 }
 
 Bistooltip_wowtbc_bislists["Druid"]["Feral dps"]["Class"]

@@ -1900,7 +1900,7 @@ Bistooltip_wowtbc_bislists["Paladin"]["Holy"]["Class"]
 [13] = {
     ["slot_name"] = "Weapon", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 60714 }
-    }, [1] = 46017, [2] = 50734, [3] = 50732, [4] = 50685, [5] = 50428
+    }, [1] = 46017, [2] = 50732, [3] = 50734, [4] = 50685, [5] = 50428
 }
 
 Bistooltip_wowtbc_bislists["Paladin"]["Holy"]["Class"]
@@ -2167,7 +2167,7 @@ Bistooltip_wowtbc_bislists["Paladin"]["Retribution"]["Class"]
         [4] = { ["type"] = "item", ["id"] = 42154 },
         [5] = { ["type"] = "none", ["id"] = 0 },
         [6] = { ["type"] = "item", ["id"] = 42154 }
-    }, [1] = 49623, [2] = 50730, [3] = 50735, [4] = 50727, [5] = 50603
+    }, [1] = 49623, [2] = 50735, [3] = 50730, [4] = 50727, [5] = 50603
 }
 
 Bistooltip_wowtbc_bislists["Paladin"]["Retribution"]["Class"]
@@ -2749,7 +2749,7 @@ Bistooltip_wowtbc_bislists["Rogue"]["Combat"]["Class"]
     ["slot_name"] = "Back", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 47898 },
         [2] = { ["type"] = "item", ["id"] = 42153 }
-    }, [1] = 47545, [2] = 50470, [3] = 50653, [4] = 51933, [5] = 47547
+    }, [1] = 47545, [2] = 50653, [3] = 50470, [4] = 51933, [5] = 47547
 }
 
 Bistooltip_wowtbc_bislists["Rogue"]["Combat"]["Class"]
@@ -3685,7 +3685,7 @@ Bistooltip_wowtbc_bislists["Warrior"]["Fury"]["Class"]
     ["slot_name"] = "Back", ["enhs"] = {
         [1] = { ["type"] = "spell", ["id"] = 47898 },
         [2] = { ["type"] = "item", ["id"] = 40111 }
-    }, [1] = 47545, [2] = 50470, [3] = 50653, [4] = 51933, [5] = 47547
+    }, [1] = 47545, [2] = 50653, [3] = 50470, [4] = 51933, [5] = 47547
 }
 
 Bistooltip_wowtbc_bislists["Warrior"]["Fury"]["Class"]
